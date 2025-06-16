@@ -1,9 +1,10 @@
 Dynamic Security Monitor (v1.0)
-Project Overview
-Dynamic Security Monitor is a comprehensive system hardening and monitoring utility for the Windows operating system, developed in C# using Windows Forms. This tool provides real-time security status monitoring, on-demand vulnerability scanning, and active system management capabilities through a clean, modern, multi-tabbed interface.
-The project was developed to provide system administrators, IT professionals, and security-conscious users with a centralized dashboard to proactively identify, analyze, and remediate common security misconfigurations and threats.
+A C# Windows Forms application for system hardening and security monitoring, developed as a semester project.
 
-Key Features
+➤ Project Overview
+Dynamic Security Monitor is a comprehensive utility designed to provide users with a real-time, actionable view of their Windows system's security posture. The tool actively monitors critical settings, scans for common vulnerabilities, and provides management features through a clean, modern, multi-tabbed interface. This allows users to proactively identify and remediate security weaknesses, helping to maintain a hardened and secure system environment.
+
+➤ Core Features
 The tool is organized into a five-tab layout for clear and intuitive navigation:
 
 1. System Status Dashboard
@@ -27,9 +28,9 @@ Unquoted Service Path Scanner: Detects and provides a one-click fix for services
 3. Startup Manager
 A powerful utility to inspect and manage programs that launch automatically on system boot.
 
-Comprehensive Scan: Scans all common registry keys and startup folders for both the current user and all users.
+Comprehensive Scan: Scans all common registry keys and startup folders.
 
-Disable Functionality: Allows users to select and permanently disable unwanted or suspicious startup items.
+Disable Functionality: Allows users to select and permanently disable unwanted startup items.
 
 4. Virus & Threat Scan
 Provides an interface for on-demand threat scanning.
@@ -47,8 +48,8 @@ Patch Recency Analysis: Analyzes the install dates of security hotfixes to deter
 
 Update Check & Install: Checks for new available updates via the Windows Update Agent API and provides a button to open the Windows Update settings page.
 
-How to Run
-Navigate to the Releases page.
+➤ How to Run
+Navigate to the Releases page of this repository. (Remember to update this link!)
 
 Download the latest release archive (DynamicSecurityMonitor.zip).
 
@@ -58,7 +59,7 @@ Ensure DynamicSecurityMonitor.exe and DynamicSecurityMonitor.exe.config are in t
 
 Right-click DynamicSecurityMonitor.exe and select "Run as administrator" or double-click and approve the UAC prompt.
 
-Technical Details
+➤ Technical Details
 Language: C# (.NET Framework)
 
 Platform: Windows Forms (WinForms)
