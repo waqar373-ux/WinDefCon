@@ -1,6 +1,7 @@
 Dynamic Security Monitor (v1.0)
 
-A C# Windows Forms application for system hardening and security monitoring.
+An EndPoint Security Solution (C# Windows Forms application) for system hardening and security monitoring.
+
 <img width="662" alt="image" src="https://github.com/user-attachments/assets/f37dbdc8-b995-484b-ab30-39f53926919e" />
 
 ➤ Project Overview
