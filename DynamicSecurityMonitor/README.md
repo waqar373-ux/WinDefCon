@@ -7,15 +7,15 @@ Key Features
 The tool is organized into a five-tab layout for clear and intuitive navigation:
 
 1. System Status Dashboard
-A live dashboard that continuously monitors critical system settings and provides at-a-glance status using color-coded cards.
+    A live dashboard that continuously monitors critical system settings and provides at-a-glance status using color-coded cards.
 
-Windows Firewall: Monitors Public, Private, and Domain profiles.
+    Windows Firewall: Monitors Public, Private, and Domain profiles.
 
-Antivirus: Checks for an active and running AV solution via WMI.
+    Antivirus: Checks for an active and running AV solution via WMI.
 
-User Account Control (UAC): Ensures UAC is enabled and not set to an insecure "auto-approve" level.
+    User Account Control (UAC): Ensures UAC is enabled and not set to an insecure "auto-approve" level.
 
-Data Execution Prevention (DEP): Reports the active DEP policy.
+    Data Execution Prevention (DEP): Reports the active DEP policy.
 
 Live Notifications: Triggers desktop alerts if a monitored setting becomes insecure.
 
